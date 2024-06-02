@@ -1,2 +1,13 @@
-package miu.edu.cse.taskmanager.dto;public class CreateNoteDTO {
+package miu.edu.cse.taskmanager.dto;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@Getter
+@Setter
+public class CreateNoteDTO {
+    private String title;
+    private String body;
 }
